@@ -3,38 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ciptakan Karya Musik dan Visual Impianmu! - [Nama Perusahaan/Platform Anda]</title>
+    <title>EvolveSounds: Ciptakan Musik & Visual Impianmu</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>[Nama Perusahaan/Platform Anda]</h1>
-            <p>Ciptakan Karya Musik dan Visual Impianmu!</p>
+            <nav>
+                <div class="logo">EvolveSounds</div>
+                <ul>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#music-packages">Musik</a></li>
+                    <li><a href="#video-packages">Video Klip</a></li>
+                    <li><a href="#why-us">Mengapa Kami</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
     <main>
         <section id="hero" class="hero-section">
             <div class="container">
-                <h2>Bawa Musikmu ke Level Berikutnya</h2>
-                <p>Dari produksi audio profesional hingga video klip AI yang inovatif, kami adalah mitra kreatifmu.</p>
-                <a href="#packages" class="btn primary-btn">Lihat Paket Harga</a>
+                <h1>Wujudkan Visi Audio & Visual Terbaikmu.</h1>
+                <p>Produser musik profesional dan inovator video klip AI siap mengubah karyamu menjadi mahakarya yang tak terlupakan.</p>
+                <a href="#packages" class="btn primary-btn">Lihat Semua Paket</a>
             </div>
         </section>
 
         <section id="services" class="services-section">
             <div class="container">
-                <h2>Layanan Unggulan Kami</h2>
+                <h2>Layanan Inti Kami</h2>
                 <div class="service-cards">
-                    <div class="card">
+                    <div class="card service-card">
+                        <i class="fas fa-headphones-alt"></i>
                         <h3>Produksi Musik Profesional</h3>
-                        <p>Kami membantu musikmu terdengar jernih dan powerful. Tim ahli kami siap membantu dari tahap awal hingga akhir, termasuk *recording*, *mixing*, dan *mastering*, memastikan karyamu siap untuk didengar dunia.</p>
+                        <p>Dari *recording* yang presisi hingga *mastering* yang sempurna, kami mengoptimalkan setiap detail audio untuk resonansi maksimal.</p>
                     </div>
-                    <div class="card">
-                        <h3>Video Klip AI Revolusioner</h3>
-                        <p>Bawa lagumu ke dimensi visual baru dengan video klip yang dibuat menggunakan kecerdasan buatan. Lewat teknologi canggih ini, kamu bisa mendapatkan visual yang unik, menarik, dan hemat biaya, tanpa perlu repot dengan produksi tradisional.</p>
+                    <div class="card service-card">
+                        <i class="fas fa-robot"></i>
+                        <h3>Video Klip AI Inovatif</h3>
+                        <p>Kreasikan visual yang memukau dan unik dengan teknologi AI. Cepat, efisien, dan secara estetika revolusioner.</p>
+                    </div>
+                    <div class="card service-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Konsultasi & Strategi</h3>
+                        <p>Dapatkan panduan ahli untuk distribusi, promosi, dan pengembangan karier artistik Anda.</p>
                     </div>
                 </div>
             </div>
@@ -42,76 +58,79 @@
 
         <section id="packages" class="packages-section">
             <div class="container">
-                <h2>Pilihan Paket Harga Terbaik</h2>
+                <h2>Pilihan Paket Terbaik</h2>
 
-                <div class="package-category">
+                <div id="music-packages" class="package-category">
                     <h3>Paket Produksi Musik</h3>
                     <div class="package-cards">
-                        <div class="card package-card">
+                        <div class="card package-item">
                             <h4>Paket Non-Komersial</h4>
                             <p class="price">Rp 500.000</p>
                             <ul>
-                                <li>Cocok untuk demo, proyek pribadi, atau sekadar eksplorasi kreatif.</li>
-                                <li>Termasuk *mixing* dan *mastering* dasar.</li>
-                                <li>Sempurna untuk menguji ide-ide baru atau membangun portofolio awal.</li>
+                                <li><i class="fas fa-check-circle"></i> Mixing & Mastering Dasar</li>
+                                <li><i class="fas fa-check-circle"></i> Ideal untuk Demo & Portofolio</li>
+                                <li><i class="fas fa-check-circle"></i> 1 Revisi</li>
                             </ul>
-                            <a href="#contact" class="btn secondary-btn">Pesan Sekarang</a>
+                            <a href="#contact" class="btn secondary-btn">Pilih Paket</a>
                         </div>
-                        <div class="card package-card featured">
+                        <div class="card package-item featured">
                             <h4>Paket Semi-Pro</h4>
                             <p class="price">Rp 2.000.000</p>
                             <ul>
-                                <li>Ideal untuk musisi independen yang ingin merilis karya serius.</li>
-                                <li>Mendapatkan *mixing* dan *mastering* lanjutan, termasuk *editing* vokal dan *tuning* instrumental.</li>
-                                <li>Siap untuk didistribusikan ke berbagai platform *streaming*.</li>
+                                <li><i class="fas fa-check-circle"></i> Mixing & Mastering Lanjutan</li>
+                                <li><i class="fas fa-check-circle"></i> Editing Vokal & Tuning Dasar</li>
+                                <li><i class="fas fa-check-circle"></i> Siap Distribusi Digital</li>
+                                <li><i class="fas fa-check-circle"></i> 2 Revisi</li>
                             </ul>
-                            <a href="#contact" class="btn primary-btn">Pesan Sekarang</a>
+                            <a href="#contact" class="btn primary-btn">Pilih Paket</a>
                         </div>
-                        <div class="card package-card">
+                        <div class="card package-item">
                             <h4>Paket Profesional</h4>
                             <p class="price">Rp 5.000.000</p>
                             <ul>
-                                <li>Solusi lengkap untuk artis dan band yang menargetkan pasar yang lebih besar.</li>
-                                <li>Meliputi *recording*, *mixing*, dan *mastering* premium, *sound design*, serta revisi tanpa batas.</li>
-                                <li>Kualitas standar industri yang dibutuhkan untuk rilisan besar dan kampanye promosi.</li>
+                                <li><i class="fas fa-check-circle"></i> Recording, Mixing, Mastering Premium</li>
+                                <li><i class="fas fa-check-circle"></i> Sound Design & Aransemen Tambahan</li>
+                                <li><i class="fas fa-check-circle"></i> Revisi Tanpa Batas</li>
+                                <li><i class="fas fa-check-circle"></i> Prioritas Pengerjaan</li>
                             </ul>
-                            <a href="#contact" class="btn secondary-btn">Pesan Sekarang</a>
+                            <a href="#contact" class="btn secondary-btn">Pilih Paket</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="package-category">
+                <div id="video-packages" class="package-category">
                     <h3>Paket Video Klip AI</h3>
                     <div class="package-cards">
-                        <div class="card package-card">
+                        <div class="card package-item">
                             <h4>Paket Standar</h4>
                             <p class="price">Rp 500.000</p>
                             <ul>
-                                <li>Video klip dasar dengan visual yang dihasilkan AI.</li>
-                                <li>Ideal untuk *teaser* singkat atau visual pendamping lagu.</li>
-                                <li>Durasi video hingga 1 menit.</li>
+                                <li><i class="fas fa-check-circle"></i> Visual AI Dasar</li>
+                                <li><i class="fas fa-check-circle"></i> Durasi Hingga 1 Menit</li>
+                                <li><i class="fas fa-check-circle"></i> Cocok untuk Teaser</li>
                             </ul>
-                            <a href="#contact" class="btn secondary-btn">Pesan Sekarang</a>
+                            <a href="#contact" class="btn secondary-btn">Pilih Paket</a>
                         </div>
-                        <div class="card package-card featured">
+                        <div class="card package-item featured">
                             <h4>Paket Semi-Pro</h4>
                             <p class="price">Rp 1.000.000</p>
                             <ul>
-                                <li>Video klip AI dengan konsep yang lebih detail dan editing yang lebih dinamis.</li>
-                                <li>Cocok untuk video klip resmi single atau proyek promosi.</li>
-                                <li>Durasi video hingga 3 menit.</li>
+                                <li><i class="fas fa-check-circle"></i> Visual AI & Editing Dinamis</li>
+                                <li><i class="fas fa-check-circle"></i> Durasi Hingga 3 Menit</li>
+                                <li><i class="fas fa-check-circle"></i> Untuk Single Resmi</li>
                             </ul>
-                            <a href="#contact" class="btn primary-btn">Pesan Sekarang</a>
+                            <a href="#contact" class="btn primary-btn">Pilih Paket</a>
                         </div>
-                        <div class="card package-card">
+                        <div class="card package-item">
                             <h4>Paket Pro</h4>
                             <p class="price">Rp 2.000.000</p>
                             <ul>
-                                <li>Video klip AI premium dengan narasi visual yang kuat dan gaya artistik yang unik.</li>
-                                <li>Melibatkan kolaborasi mendalam dengan tim AI kami untuk mewujudkan visimu.</li>
-                                <li>Durasi video hingga 5 menit, sempurna untuk video klip utama.</li>
+                                <li><i class="fas fa-check-circle"></i> Narasi Visual AI Kompleks</li>
+                                <li><i class="fas fa-check-circle"></i> Durasi Hingga 5 Menit</li>
+                                <li><i class="fas fa-check-circle"></i> Kolaborasi Konsep Mendalam</li>
+                                <li><i class="fas fa-check-circle"></i> Kualitas Sinematik AI</li>
                             </ul>
-                            <a href="#contact" class="btn secondary-btn">Pesan Sekarang</a>
+                            <a href="#contact" class="btn secondary-btn">Pilih Paket</a>
                         </div>
                     </div>
                 </div>
@@ -120,48 +139,131 @@
 
         <section id="why-us" class="why-us-section">
             <div class="container">
-                <h2>Kenapa Harus Kami?</h2>
-                <div class="reason-list">
+                <h2>Mengapa Memilih EvolveSounds?</h2>
+                <div class="reason-grid">
                     <div class="reason-item">
-                        <h4>Kualitas Tanpa Kompromi</h4>
-                        <p>Kami mengutamakan kualitas audio dan visual yang luar biasa untuk setiap proyek.</p>
+                        <i class="fas fa-medal"></i>
+                        <h4>Kualitas Unggul</h4>
+                        <p>Komitmen kami terhadap kesempurnaan audio dan visual memastikan hasil yang melampaui ekspektasi.</p>
                     </div>
                     <div class="reason-item">
+                        <i class="fas fa-lightbulb"></i>
                         <h4>Inovasi AI</h4>
-                        <p>Manfaatkan teknologi AI terkini untuk menciptakan video klip yang memukau dan efisien.</p>
+                        <p>Manfaatkan kecanggihan AI untuk video klip yang orisinal, efisien, dan secara visual menawan.</p>
                     </div>
                     <div class="reason-item">
-                        <h4>Fleksibilitas Paket</h4>
-                        <p>Pilihan paket kami dirancang agar sesuai dengan berbagai kebutuhan dan anggaran.</p>
+                        <i class="fas fa-wallet"></i>
+                        <h4>Fleksibilitas Anggaran</h4>
+                        <p>Pilihan paket yang beragam untuk mengakomodasi musisi dari berbagai level dan kebutuhan.</p>
                     </div>
                     <div class="reason-item">
+                        <i class="fas fa-handshake"></i>
                         <h4>Dukungan Penuh</h4>
-                        <p>Kami siap membimbingmu dari ide awal hingga hasil akhir yang memuaskan.</p>
+                        <p>Tim ahli kami siap membimbing Anda di setiap langkah proses kreatif.</p>
                     </div>
                 </div>
             </div>
         </section>
 
+        <section id="call-to-action" class="cta-section">
+            <div class="container">
+                <h2>Siap Mengubah Impianmu Menjadi Realita?</h2>
+                <p>EvolveSounds adalah partner terbaikmu untuk produksi musik dan video klip. Mari berkolaborasi!</p>
+                <a href="#contact" class="btn primary-btn large-btn">Mulai Proyekmu Sekarang</a>
+            </div>
+        </section>
+
         <section id="contact" class="contact-section">
             <div class="container">
-                <h2>Siap Memulai Proyek Impianmu?</h2>
-                <p>Jangan tunda lagi! Hubungi kami hari ini untuk konsultasi gratis atau langsung pilih paket yang paling cocok untukmu.</p>
-                <a href="mailto:info@namaperusahaanmu.com" class="btn primary-btn">Konsultasi Gratis</a>
-                <p>Atau hubungi kami melalui: <br> Telepon: [Nomor Telepon Anda] <br> Email: info@namaperusahaanmu.com</p>
+                <h2>Hubungi Kami</h2>
+                <p>Untuk konsultasi gratis atau pertanyaan lebih lanjut, jangan ragu untuk menghubungi kami.</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subjek</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan Anda</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Kirim Pesan</button>
+                </form>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> info@evolvesounds.com</p>
+                    <p><i class="fas fa-phone-alt"></i> +62 812 3456 7890</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia</p>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 [Nama Perusahaan/Platform Anda]. All rights reserved.</p>
-            <div class="social-links">
-                <a href="#" target="_blank">Facebook</a> |
-                <a href="#" target="_blank">Instagram</a> |
-                <a href="#" target="_blank">YouTube</a>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>EvolveSounds</h3>
+                    <p>Mewujudkan potensi kreatifmu.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="#services">Layanan</a></li>
+                        <li><a href="#packages">Paket Harga</a></li>
+                        <li><a href="#why-us">Mengapa Kami</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Ikuti Kami</h4>
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
             </div>
-            <p><a href="#">Kebijakan Privasi</a></p>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EvolveSounds. Hak Cipta Dilindungi Undang-Undang.</p>
+                <p><a href="#">Kebijakan Privasi</a> | <a href="#">Syarat & Ketentuan</a></p>
+            </div>
         </div>
     </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav ul li a, .btn').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href.startsWith('#')) { // Only apply to internal links
+                    e.preventDefault();
+                    const targetId = href.substring(1);
+                    const targetElement = document.getElementById(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - (document.querySelector('header').offsetHeight), // Adjust for fixed header
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+
+        // Simple form submission (for demonstration)
+        const contactForm = document.querySelector('.contact-form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Pesan Anda telah terkirim! Kami akan segera menghubungi Anda.');
+                contactForm.reset();
+            });
+        }
+    </script>
 </body>
 </html>
