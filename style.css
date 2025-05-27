@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif; /* Font utama untuk teks */
+    font-family: 'Roboto', sans-serif; /* Font utama untuk teks */
     margin: 0;
     padding: 0;
     background-color: #f8f8f8; /* Warna latar belakang umum */
@@ -21,7 +21,7 @@ body {
 
 /* Typography */
 h1, h2, h3, h4 {
-    font-family: 'Montserrat', sans-serif; /* Font untuk judul */
+    font-family: 'Oswald', sans-serif; /* Font untuk judul */
     color: #2c3e50; /* Warna judul */
     line-height: 1.2; /* Spasi antar baris judul */
 }
@@ -83,7 +83,7 @@ header .container {
 }
 
 .logo {
-    font-family: 'Montserrat', sans-serif; /* Font untuk logo */
+    font-family: 'Oswald', sans-serif; /* Font untuk logo */
     font-size: 1.8em;
     font-weight: 700;
     color: #e74c3c; /* Warna logo */
@@ -442,7 +442,7 @@ section:nth-of-type(even) { /* Latar belakang bergantian untuk bagian */
     border: 1px solid #ddd;
     border-radius: 8px;
     font-size: 1.1em;
-    font-family: 'Open Sans', sans-serif; /* Font untuk input form */
+    font-family: 'Roboto', sans-serif; /* Font untuk input form */
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
