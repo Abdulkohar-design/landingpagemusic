@@ -4,35 +4,35 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif; /* Font utama untuk teks */
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
-    color: #333;
-    line-height: 1.7;
-    scroll-behavior: smooth;
+    background-color: #f8f8f8; /* Warna latar belakang umum */
+    color: #333; /* Warna teks umum */
+    line-height: 1.7; /* Spasi antar baris */
+    scroll-behavior: smooth; /* Efek smooth scrolling */
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 25px;
+    max-width: 1200px; /* Lebar maksimum konten */
+    margin: 0 auto; /* Tengah konten */
+    padding: 0 25px; /* Padding samping */
 }
 
 /* Typography */
 h1, h2, h3, h4 {
-    font-family: 'Playfair Display', serif;
-    color: #2c3e50;
-    line-height: 1.2;
+    font-family: 'Lora', serif; /* Font untuk judul */
+    color: #2c3e50; /* Warna judul */
+    line-height: 1.2; /* Spasi antar baris judul */
 }
 
 h1 {
-    font-size: 3.8em;
+    font-size: 3.8em; /* Ukuran font H1 */
     margin-bottom: 25px;
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 3em; /* Ukuran font H2 */
     margin-bottom: 50px;
     text-align: center;
     position: relative;
@@ -47,33 +47,33 @@ h2::after {
     transform: translateX(-50%);
     width: 100px;
     height: 4px;
-    background-color: #e74c3c;
+    background-color: #e74c3c; /* Garis bawah judul H2 */
     border-radius: 2px;
 }
 
 h3 {
-    font-size: 1.8em;
+    font-size: 1.8em; /* Ukuran font H3 */
     margin-bottom: 15px;
 }
 
 h4 {
-    font-size: 1.4em;
+    font-size: 1.4em; /* Ukuran font H4 */
     margin-bottom: 10px;
 }
 
 p {
-    font-size: 1.1em;
+    font-size: 1.1em; /* Ukuran font paragraf */
 }
 
 /* Header & Navigation */
 header {
-    background-color: #2c3e50;
+    background-color: #2c3e50; /* Warna latar belakang header */
     color: #fff;
     padding: 20px 0;
-    position: sticky;
+    position: sticky; /* Header akan tetap di atas saat di-scroll */
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan header */
 }
 
 header .container {
@@ -83,10 +83,10 @@ header .container {
 }
 
 .logo {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', serif; /* Font untuk logo */
     font-size: 1.8em;
     font-weight: 700;
-    color: #e74c3c;
+    color: #e74c3c; /* Warna logo */
     letter-spacing: 1px;
 }
 
@@ -95,7 +95,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 30px;
+    gap: 30px; /* Jarak antar item navigasi */
 }
 
 nav ul li a {
@@ -115,7 +115,7 @@ nav ul li a::after {
     bottom: -5px;
     width: 0;
     height: 3px;
-    background-color: #e74c3c;
+    background-color: #e74c3c; /* Garis bawah hover navigasi */
     transition: width 0.3s ease;
 }
 
@@ -131,30 +131,30 @@ nav ul li a:hover::after {
 .btn {
     display: inline-block;
     padding: 14px 30px;
-    border-radius: 50px; /* More rounded for modern look */
+    border-radius: 50px; /* Sudut lebih membulat */
     text-decoration: none;
     font-weight: 600;
     font-size: 1.1em;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease; /* Transisi untuk hover */
     text-align: center;
     border: none;
     cursor: pointer;
 }
 
 .primary-btn {
-    background-color: #e74c3c;
+    background-color: #e74c3c; /* Warna utama tombol */
     color: #fff;
     box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
 }
 
 .primary-btn:hover {
     background-color: #c0392b;
-    transform: translateY(-5px);
+    transform: translateY(-5px); /* Efek angkat saat hover */
     box-shadow: 0 8px 20px rgba(231, 76, 60, 0.5);
 }
 
 .secondary-btn {
-    background-color: #3498db;
+    background-color: #3498db; /* Warna sekunder tombol */
     color: #fff;
     box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
 }
@@ -172,11 +172,11 @@ nav ul li a:hover::after {
 
 /* Sections Base Style */
 section {
-    padding: 100px 0;
+    padding: 100px 0; /* Padding vertikal untuk setiap bagian */
     text-align: center;
 }
 
-section:nth-of-type(even) {
+section:nth-of-type(even) { /* Latar belakang bergantian untuk bagian */
     background-color: #f0f3f5;
 }
 
@@ -224,18 +224,18 @@ section:nth-of-type(even) {
     min-width: 280px;
     max-width: 30%;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
-    border-bottom: 5px solid transparent;
+    border-bottom: 5px solid transparent; /* Garis bawah untuk efek hover */
 }
 
 .service-card:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
-    border-color: #e74c3c;
+    border-color: #e74c3c; /* Warna garis bawah saat hover */
 }
 
 .service-card i {
     font-size: 3.5em;
-    color: #e74c3c;
+    color: #e74c3c; /* Warna ikon */
     margin-bottom: 20px;
 }
 
@@ -254,7 +254,7 @@ section:nth-of-type(even) {
     color: #2c3e50;
     margin-bottom: 40px;
     position: relative;
-    display: inline-block; /* To center the pseudo-element under the text */
+    display: inline-block;
 }
 
 .packages-section .package-category h3::after {
@@ -265,7 +265,7 @@ section:nth-of-type(even) {
     transform: translateX(-50%);
     width: 60%;
     height: 3px;
-    background-color: #3498db;
+    background-color: #3498db; /* Garis bawah judul kategori paket */
     border-radius: 2px;
 }
 
@@ -289,7 +289,7 @@ section:nth-of-type(even) {
     justify-content: space-between;
     align-items: center;
     transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
-    border: 3px solid transparent;
+    border: 3px solid transparent; /* Border transparan default */
 }
 
 .package-item:hover {
@@ -297,10 +297,10 @@ section:nth-of-type(even) {
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
-.package-item.featured {
+.package-item.featured { /* Gaya untuk paket unggulan */
     border-color: #e74c3c;
     box-shadow: 0 8px 25px rgba(231, 76, 60, 0.4);
-    transform: scale(1.05); /* Slightly larger for featured */
+    transform: scale(1.05);
     position: relative;
     z-index: 10;
 }
@@ -340,7 +340,7 @@ section:nth-of-type(even) {
 }
 
 .package-item ul li i {
-    color: #27ae60;
+    color: #27ae60; /* Warna ikon checklist */
     position: absolute;
     left: 0;
     font-size: 1.2em;
@@ -354,7 +354,7 @@ section:nth-of-type(even) {
 
 .why-us-section .reason-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Kolom responsif */
     gap: 30px;
     justify-content: center;
 }
@@ -375,7 +375,7 @@ section:nth-of-type(even) {
 
 .why-us-section .reason-item i {
     font-size: 3em;
-    color: #3498db;
+    color: #3498db; /* Warna ikon */
     margin-bottom: 20px;
 }
 
@@ -442,7 +442,7 @@ section:nth-of-type(even) {
     border: 1px solid #ddd;
     border-radius: 8px;
     font-size: 1.1em;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif; /* Font untuk input form */
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -466,7 +466,7 @@ section:nth-of-type(even) {
 }
 
 .contact-section .contact-info i {
-    color: #e74c3c;
+    color: #e74c3c; /* Warna ikon kontak */
     margin-right: 10px;
 }
 
@@ -494,7 +494,7 @@ footer {
 }
 
 .footer-brand h3 {
-    color: #e74c3c;
+    color: #e74c3c; /* Warna logo di footer */
     font-size: 1.8em;
     margin-bottom: 15px;
 }
@@ -572,13 +572,13 @@ footer {
     }
     .service-card,
     .package-item {
-        max-width: 45%;
+        max-width: 45%; /* 2 kolom untuk tablet */
     }
     .reason-item {
         max-width: 45%;
     }
     .footer-content {
-        flex-direction: column;
+        flex-direction: column; /* Footer menjadi kolom */
         align-items: center;
         text-align: center;
     }
@@ -623,7 +623,7 @@ footer {
     }
     .service-card,
     .package-item {
-        max-width: 80%; /* Almost full width on smaller screens */
+        max-width: 80%; /* Hampir penuh untuk mobile */
     }
     .reason-item {
         max-width: 80%;
